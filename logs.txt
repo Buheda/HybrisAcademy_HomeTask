@@ -1,5 +1,2 @@
-INFO   the_collections_framework.Lecture25 - something
-INFO   the_collections_framework.Lecture25 - something
-INFO   the_collections_framework.Lecture25 - something
-INFO   the_collections_framework.Lecture25 - something
-INFO   the_collections_framework.Lecture25 - something
+TRACE  the_collections_framework.Lecture25 - 19
+TRACE  the_collections_framework.Lecture25 - 10
