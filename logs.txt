@@ -1,0 +1,5 @@
+INFO   the_collections_framework.Lecture25 - something
+INFO   the_collections_framework.Lecture25 - something
+INFO   the_collections_framework.Lecture25 - something
+INFO   the_collections_framework.Lecture25 - something
+INFO   the_collections_framework.Lecture25 - something
