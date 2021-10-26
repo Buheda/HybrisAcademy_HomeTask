@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
 
+import util.LoggerUtil;
 
-public class Lecture25 {	
-	private static final Logger logger = LogManager.getLogger(Lecture25.class);	 
+public class Lecture25 {
+	private static Logger logger = null;
 	
 	private static void example1() {
-		logger.info("\nexample1");
+		logger.info("example1");
 		
 		ArrayList words = new ArrayList();
 		words.add("hello");
@@ -86,7 +86,7 @@ public class Lecture25 {
 	}
 	
 	public static void run() {
-		logger.info("Lecture25:");
+		logger = LoggerUtil.getLogger("Lecture25");
 		example1();
 		example2();
 		example3();
