@@ -3,14 +3,15 @@ package the_collections_framework;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 
 public class Lecture25 {	
-	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Lecture25.class);	 
+	private static final Logger logger = LogManager.getLogger(Lecture25.class);	 
 	
 	private static void example1() {
-		logger.info("example1");
+		logger.info("\nexample1");
 		
 		ArrayList words = new ArrayList();
 		words.add("hello");
@@ -26,7 +27,7 @@ public class Lecture25 {
 	}
 	
 	private static void example2() {
-		logger.info("example2");
+		logger.info("\nexample2");
 		
 		ArrayList<String> words = new ArrayList<String>();
 		words.add("hello");
@@ -38,7 +39,7 @@ public class Lecture25 {
 	}
 	
 	private static void example3() {
-		logger.info("example3");
+		logger.info("\nexample3");
 		
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		numbers.add(100);
@@ -52,7 +53,7 @@ public class Lecture25 {
 	}
 	
 	private static void example4() {
-		logger.info("example4");
+		logger.info("\nexample4");
 		
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		numbers.add(100);
@@ -68,7 +69,7 @@ public class Lecture25 {
 	}
 	
 	private static void example5() {
-		logger.info("example5");
+		logger.info("\nexample5");
 		
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		numbers.add(100);
@@ -85,12 +86,12 @@ public class Lecture25 {
 	}
 	
 	public static void run() {
+		logger.info("Lecture25:");
 		example1();
 		example2();
 		example3();
 		example4();
 		example5();
-
 	}
 
 }

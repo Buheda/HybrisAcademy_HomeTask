@@ -1,17 +1,23 @@
-INFO   the_collections_framework.Lecture25 - example1
-TRACE  the_collections_framework.Lecture25 - 19
-INFO   the_collections_framework.Lecture25 - example2
-TRACE  the_collections_framework.Lecture25 - 10
-INFO   the_collections_framework.Lecture25 - example3
-TRACE  the_collections_framework.Lecture25 - 100
-TRACE  the_collections_framework.Lecture25 - 200
-TRACE  the_collections_framework.Lecture25 - 45
-TRACE  the_collections_framework.Lecture25 - 1000
-INFO   the_collections_framework.Lecture25 - example4
-TRACE  the_collections_framework.Lecture25 - 100
-TRACE  the_collections_framework.Lecture25 - 200
-TRACE  the_collections_framework.Lecture25 - 1000
-INFO   the_collections_framework.Lecture25 - example5
-TRACE  the_collections_framework.Lecture25 - 200
-TRACE  the_collections_framework.Lecture25 - 45
-TRACE  the_collections_framework.Lecture25 - 1000
+Lecture25:
+
+example1
+19
+
+example2
+10
+
+example3
+100
+200
+45
+1000
+
+example4
+100
+200
+1000
+
+example5
+200
+45
+1000

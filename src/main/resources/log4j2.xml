@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+ 	<Console name="LogToConsole" target="SYSTEM_OUT">
+ 		<PatternLayout pattern="%msg%n"/>
+    </Console>  
+    <File name="LogToFile" fileName="logs.txt" append="false">
+ 		<PatternLayout pattern="%msg%n"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="LogToConsole"/>
+      <AppenderRef ref="LogToFile"/>
+    </Root>
+  </Loggers>
+</Configuration>
