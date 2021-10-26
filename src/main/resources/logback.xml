@@ -7,14 +7,15 @@
   </appender>
   
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>logs.txt</file>
-        <encoder>
-            <pattern>%-5level  %logger{60} - %msg%n</pattern>
-        </encoder>
-    </appender>
- 
-    <root level="TRACE">
-        <appender-ref ref="STDOUT" />
-        <appender-ref ref="FILE" />
-    </root>
+	<param name="Append" value="false" />
+    <file>logs.txt</file>
+    <encoder>
+      <pattern>%-5level  %logger{60} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="TRACE">
+  	<appender-ref ref="STDOUT" />
+    <appender-ref ref="FILE" />
+  </root>
 </configuration>
