@@ -1,0 +1,26 @@
+example1 - List methods
+List1: [12, 43, 15, 67, 43, 10, 10, 10, 10]
+merged list1: [12, 43, 15, 67, 43, 10, 10, 10, 10, 10, 15, 67]
+newList: [10, 15, 67]
+Contains 67: true
+Contains 48: false
+list1.isEmpty: false
+retain list1(newList): true, [15, 67, 10, 10, 10, 10, 10, 15, 67]
+removeAll list1(newList): true, [12, 43, 43]
+list1 after clear: []
+list1.isEmpty: true
+
+example2 - HashSet<Integer> to List and sort
+[67, 10, 43, 12, 15]
+[67, 10, 43, 12, 15]
+[10, 12, 15, 43, 67]
+
+example3 - HashSet<String> to List and sort
+[Random, Car, Animal, People, Zoo]
+[Random, Car, Animal, People, Zoo]
+[Animal, Car, People, Random, Zoo]
+
+example4 - HashSet<Employee> to List and sort
+[Employee [name=Mike, salary=3500, department=Accounting], Employee [name=Angel, salary=2000, department=HR], Employee [name=Peter, salary=2500, department=Developer], Employee [name=Paul, salary=3000, department=DevOps]]
+[Employee [name=Mike, salary=3500, department=Accounting], Employee [name=Angel, salary=2000, department=HR], Employee [name=Peter, salary=2500, department=Developer], Employee [name=Paul, salary=3000, department=DevOps]]
+[Employee [name=Angel, salary=2000, department=HR], Employee [name=Peter, salary=2500, department=Developer], Employee [name=Paul, salary=3000, department=DevOps], Employee [name=Mike, salary=3500, department=Accounting]]
