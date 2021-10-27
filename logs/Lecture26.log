@@ -1,0 +1,42 @@
+example1
+Lion
+cat
+Dog
+Bird
+Lion
+cat
+Dog
+Bird
+
+example2
+Honda
+accord
+12000
+
+Toyota
+Camry
+12000
+
+Jeep
+Wrangler
+25000
+
+
+example3-ArrayList & toString
+Vehicle [make=Honda, model=accord, price=12000, fourWDrive=false]
+Vehicle [make=Toyota, model=Camry, price=12000, fourWDrive=false]
+Vehicle [make=Jeep, model=Wrangler, price=25000, fourWDrive=true]
+
+example4-linkedList
+Vehicle [make=Honda, model=accord, price=12000, fourWDrive=false]
+Vehicle [make=Toyota, model=Camry, price=12000, fourWDrive=false]
+Vehicle [make=Jeep, model=Wrangler, price=25000, fourWDrive=true]
+
+example5-printElements
+Vehicle [make=Honda, model=accord, price=12000, fourWDrive=false]
+Vehicle [make=Toyota, model=Camry, price=12000, fourWDrive=false]
+Vehicle [make=Jeep, model=Wrangler, price=25000, fourWDrive=true]
+Lion
+cat
+Dog
+Bird

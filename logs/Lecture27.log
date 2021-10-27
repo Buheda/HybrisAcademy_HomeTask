@@ -1,0 +1,38 @@
+example1 - HashSet<Integer>
+67
+43
+12
+15
+
+example2 - HashSet<String>
+Random
+Car
+Animal
+People
+Zoo
+
+example3 - LinkedHashSet
+Random
+People
+Animal
+Zoo
+Car
+
+example4 - Animal Double
+Animal [name=dog, age=12]
+Animal [name=dog, age=12]
+Animal [name=bird, age=3]
+Animal [name=cat, age=8]
+Animal [name=kangaroo, age=24]
+
+example5 - Animal object not double
+Animal [name=cat, age=8]
+Animal [name=dog, age=12]
+Animal [name=bird, age=3]
+Animal [name=kangaroo, age=24]
+
+example6 - Animal with equals
+Animal [name=dog, age=12]
+Animal [name=kangaroo, age=24]
+Animal [name=bird, age=3]
+Animal [name=cat, age=8]
