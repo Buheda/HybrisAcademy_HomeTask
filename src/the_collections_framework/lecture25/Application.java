@@ -1,4 +1,4 @@
-package the_collections_framework;
+package the_collections_framework.lecture25;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -7,8 +7,17 @@ import org.apache.logging.log4j.Logger;
 
 import util.LoggerUtil;
 
-public class Lecture25 {
+public class Application {
 	private static Logger logger = null;
+	
+	public static void main(String[] args) {
+		logger = LoggerUtil.getLogger("Lecture25");
+		example1();
+		example2();
+		example3();
+		example4();
+		example5();
+	}
 	
 	private static void example1() {
 		logger.info("example1");
@@ -84,14 +93,4 @@ public class Lecture25 {
 			logger.trace("{}", number);
 		}
 	}
-	
-	public static void run() {
-		logger = LoggerUtil.getLogger("Lecture25");
-		example1();
-		example2();
-		example3();
-		example4();
-		example5();
-	}
-
 }
