@@ -1,11 +1,11 @@
-package the_collections_framework.lecture25;
+package com.udemy.ciklum.the_collections_framework.lecture25;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 import org.apache.logging.log4j.Logger;
 
-import util.LoggerUtil;
+import com.udemy.ciklum.util.LoggerUtil;
 
 public class Application {
 	private static Logger logger = null;

@@ -1,4 +1,4 @@
-package the_collections_framework.lecture28;
+package com.udemy.ciklum.the_collections_framework.lecture28;
 
 public class Employee implements Comparable<Employee> {
 	private String name;

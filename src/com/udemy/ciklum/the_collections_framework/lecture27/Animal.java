@@ -1,4 +1,4 @@
-package the_collections_framework.lecture27;
+package com.udemy.ciklum.the_collections_framework.lecture27;
 
 public class Animal {
 	String name;

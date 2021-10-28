@@ -1,4 +1,4 @@
-package the_collections_framework.lecture29;
+package com.udemy.ciklum.the_collections_framework.lecture29;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -7,7 +7,7 @@ import java.util.TreeMap;
 
 import org.apache.logging.log4j.Logger;
 
-import util.LoggerUtil;
+import com.udemy.ciklum.util.LoggerUtil;
 
 public class Application {
 	private static Logger logger = null;

@@ -1,4 +1,4 @@
-package the_collections_framework.lecture26;
+package com.udemy.ciklum.the_collections_framework.lecture26;
 
 public class Vehicle {
 	private String make;
