@@ -1,17 +1,13 @@
 package the_collections_framework.lecture28;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
 import org.apache.logging.log4j.Logger;
 
-import the_collections_framework.lecture27.Animal;
-import the_collections_framework.lecture27.Animal2;
 import util.LoggerUtil;
 
 public class Application {
@@ -23,8 +19,6 @@ public class Application {
 		example2();
 		example3();
 		example4();
-		/*example5();
-		example6();*/
 	}
 	
 	private static void example1() {
