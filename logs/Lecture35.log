@@ -1,0 +1,59 @@
+example1
+Hi, there!
+MainNumber: 0
+MainNumber: 1
+MainNumber: 2
+Number1: 0
+MainNumber: 3
+Number1: 1
+MainNumber: 4
+Number1: 2
+MainNumber: 5
+Number1: 3
+MainNumber: 6
+Number1: 4
+MainNumber: 7
+Number1: 5
+MainNumber: 8
+Number1: 6
+MainNumber: 9
+Number1: 7
+
+example2
+Number1: 8
+Number1: 9
+Hi, there!
+
+exampleException
+Number2.1: 0
+Number2.2: 0
+Hi, there!
+Number2.2: 1
+Number2.1: 1
+Number2.1: 2
+Number2.2: 2
+Number2.1: 3
+Number2.2: 3
+Number2.1: 4
+NumberEx: 0
+Number2.2: 4
+Number2.1: 5
+NumberEx: 1
+Number2.2: 5
+java.lang.IllegalThreadStateException
+Number2.2: 6
+Number2.1: 6
+NumberEx: 2
+Number2.2: 7
+NumberEx: 3
+Number2.1: 7
+Number2.2: 8
+NumberEx: 4
+Number2.1: 8
+Number2.2: 9
+NumberEx: 5
+Number2.1: 9
+NumberEx: 6
+NumberEx: 7
+NumberEx: 8
+NumberEx: 9
