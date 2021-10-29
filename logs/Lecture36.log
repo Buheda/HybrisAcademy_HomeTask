@@ -3,10 +3,99 @@ Thread1
 Thread2
 
 example2
+0,  defaultName=Thread-0
 NamedThread1
 0,  defaultName=Thread-1
-0,  defaultName=Thread-0
 NamedThread2
 
 example3
+0, Thread1
+0, Thread2
+0, Thread3
 1,  defaultName=Thread-1
+1, Thread2
+1, Thread1
+1,  defaultName=Thread-0
+1, Thread3
+2, Thread1
+2, Thread2
+2, Thread3
+2,  defaultName=Thread-0
+2,  defaultName=Thread-1
+3, Thread2
+3,  defaultName=Thread-0
+3, Thread3
+3,  defaultName=Thread-1
+3, Thread1
+4, Thread2
+4,  defaultName=Thread-1
+4, Thread1
+4,  defaultName=Thread-0
+4, Thread3
+5, Thread2
+5, Thread1
+5,  defaultName=Thread-0
+5, Thread3
+5,  defaultName=Thread-1
+6,  defaultName=Thread-0
+6, Thread1
+6, Thread3
+6,  defaultName=Thread-1
+6, Thread2
+7, Thread1
+7,  defaultName=Thread-1
+7, Thread3
+7,  defaultName=Thread-0
+7, Thread2
+8,  defaultName=Thread-1
+8, Thread3
+8, Thread1
+8, Thread2
+8,  defaultName=Thread-0
+9,  defaultName=Thread-1
+9, Thread1
+9,  defaultName=Thread-0
+9, Thread2
+9, Thread3
+
+example4
+0, Thread4
+1, Thread4
+2, Thread4
+3, Thread4
+4, Thread4
+5, Thread4
+6, Thread4
+7, Thread4
+8, Thread4
+9, Thread4
+0, Thread5
+0, Thread4
+1, Thread5
+1, Thread4
+2, Thread5
+2, Thread4
+3, Thread4
+3, Thread5
+4, Thread5
+4, Thread4
+5, Thread5
+5, Thread4
+6, Thread5
+6, Thread4
+7, Thread4
+7, Thread5
+8, Thread4
+8, Thread5
+9, Thread5
+9, Thread4
+0, Thread5
+1, Thread5
+2, Thread5
+3, Thread5
+4, Thread5
+5, Thread5
+6, Thread5
+7, Thread5
+8, Thread5
+9, Thread5

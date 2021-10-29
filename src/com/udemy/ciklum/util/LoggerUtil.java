@@ -7,28 +7,18 @@ import org.apache.logging.log4j.core.config.Configuration;
 import org.apache.logging.log4j.core.config.Configurator;
 
 public class LoggerUtil {
-	private static String existsLoggerName = null;
-	private static boolean useOnlyOneLogger = true;
-	
-	private static void removeExistsLogger() {
-		LoggerContext context = (LoggerContext) LogManager.getContext(false);
-	    Configuration configuration = context.getConfiguration();
-	    configuration.removeLogger(existsLoggerName);  
-	    context.updateLoggers();
-		Configurator.reconfigure();
-	}
-	
-	public static void setUsingOnlyOneLogger(boolean useOnlyOne) {
-		useOnlyOneLogger = useOnlyOne;
-	}
+	//private static String existsLoggerName = null;
 		
 	public static Logger getLogger(String name) {
 		System.setProperty("logFilename", name);
-		if (useOnlyOneLogger) {
-			if (null != existsLoggerName && !existsLoggerName.equals(name))
-				removeExistsLogger();
-			existsLoggerName = name;
+		/*if (null != existsLoggerName && !existsLoggerName.equals(name)) {
+			LoggerContext context = (LoggerContext) LogManager.getContext(false);
+		    Configuration configuration = context.getConfiguration();
+		    configuration.removeLogger(existsLoggerName);  
+		    context.updateLoggers();
+			Configurator.reconfigure();
 		}
+		existsLoggerName = name;*/
 		return LogManager.getLogger(name);
 		
 	}
