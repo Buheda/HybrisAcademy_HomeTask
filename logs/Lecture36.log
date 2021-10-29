@@ -1,0 +1,12 @@
+example1
+Thread1
+Thread2
+
+example2
+NamedThread1
+0,  defaultName=Thread-1
+0,  defaultName=Thread-0
+NamedThread2
+
+example3
+1,  defaultName=Thread-1
