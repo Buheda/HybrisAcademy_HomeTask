@@ -1,0 +1,11 @@
+shutdown:
+pool-2-thread-1[RECEIVED] Message = 10
+pool-2-thread-2[RECEIVED] Message = 20
+pool-2-thread-1(DONE) Processing Message = 10
+pool-2-thread-2(DONE) Processing Message = 20
+pool-2-thread-1[RECEIVED] Message = 30
+pool-2-thread-2[RECEIVED] Message = 40
+pool-2-thread-2(DONE) Processing Message = 40
+pool-2-thread-1(DONE) Processing Message = 30
+pool-2-thread-2[RECEIVED] Message = 50
+pool-2-thread-2(DONE) Processing Message = 50
