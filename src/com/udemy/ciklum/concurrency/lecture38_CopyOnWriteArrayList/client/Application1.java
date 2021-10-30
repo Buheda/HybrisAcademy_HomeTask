@@ -10,7 +10,6 @@ public class Application1 {
 	
 	public static void main(String[] args) throws InterruptedException {
 		InventoryManager manager = new InventoryManager();		
-		manager.setLogger(logger);
 
 		Thread inventoryTask = new Thread(new Runnable() {
 			public void run() {

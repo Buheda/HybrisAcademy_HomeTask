@@ -2,7 +2,6 @@ package com.udemy.ciklum.concurrency.lecture37_synchronization;
 
 import org.apache.logging.log4j.Logger;
 
-import com.udemy.ciklum.concurrency.lecture36_startThread.NamedTask;
 import com.udemy.ciklum.util.LoggerUtil;
 
 public class Application {

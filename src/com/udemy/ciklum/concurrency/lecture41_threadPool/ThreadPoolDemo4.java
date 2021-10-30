@@ -15,7 +15,6 @@ public class ThreadPoolDemo4 {
 	public static void main(String[] args) throws InterruptedException {
 		logger.info("awaitTermination:");
 
-		MessageProcessor.setLogger(logger);
 		ExecutorService executor = Executors.newFixedThreadPool(2);
 		
 		Runnable processor1 = new MessageProcessor(10);

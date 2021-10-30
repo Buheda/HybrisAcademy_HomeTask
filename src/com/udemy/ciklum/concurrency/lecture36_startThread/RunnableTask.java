@@ -1,7 +1,5 @@
 package com.udemy.ciklum.concurrency.lecture36_startThread;
 
-import org.apache.logging.log4j.Logger;
-
 import com.udemy.ciklum.util.LoggerUtil;
 
 public class RunnableTask implements Runnable{
@@ -14,15 +12,14 @@ public class RunnableTask implements Runnable{
    
    @Override
    public void run() {
-	   Logger logger = LoggerUtil.getLogger("Lecture35");
 	   Thread.currentThread().setName(threadName);
 	   
 	   for (int i = 0; i < 10; i++) {
-		   logger.trace(i + ", "+Thread.currentThread().getName());
+		   LoggerUtil.getLogger().trace(i + ", "+Thread.currentThread().getName());
 		   try {
 			   Thread.sleep(10);
 		   } catch (InterruptedException e) {
-			   logger.trace(e);
+			   LoggerUtil.getLogger().trace(e);
 		   }
 	   }
    }

@@ -2,7 +2,6 @@ package com.udemy.ciklum.concurrency.lecture38_CopyOnWriteArrayList.client;
 
 import org.apache.logging.log4j.Logger;
 
-import com.udemy.ciklum.concurrency.lecture38_CopyOnWriteArrayList.inventory.InventoryManager;
 import com.udemy.ciklum.concurrency.lecture38_CopyOnWriteArrayList.inventory.InventoryManager_CopyOnWrite;
 import com.udemy.ciklum.util.LoggerUtil;
 
@@ -11,7 +10,6 @@ public class Application3 {
 	
 	public static void main(String[] args) throws InterruptedException {
 		InventoryManager_CopyOnWrite manager = new InventoryManager_CopyOnWrite();		
-		manager.setLogger(logger);
 
 		Thread inventoryTask = new Thread(new Runnable() {
 			public void run() {

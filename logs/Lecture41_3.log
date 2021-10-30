@@ -1,8 +1,8 @@
 shutdownNow:
 pool-2-thread-1[RECEIVED] Message = 10
 pool-2-thread-2[RECEIVED] Message = 20
-Unable to process message 20 cause: java.lang.InterruptedException: sleep interrupted
 Unable to process message 10 cause: java.lang.InterruptedException: sleep interrupted
-pool-2-thread-2(DONE) Processing Message = 20
+Unable to process message 20 cause: java.lang.InterruptedException: sleep interrupted
 pool-2-thread-1(DONE) Processing Message = 10
+pool-2-thread-2(DONE) Processing Message = 20
 processed all tasks

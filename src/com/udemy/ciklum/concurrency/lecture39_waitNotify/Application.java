@@ -16,11 +16,9 @@ public class Application {
 		Logger logger = LoggerUtil.getLogger("Lecture39");
 
 		Producer producer = new Producer(questions);
-		producer.setLogger(logger);
 		Thread producerTask = new Thread(producer);
 		
 		Consumer consumer = new Consumer(questions);	
-		consumer.setLogger(logger);
 		Thread consumerTask = new Thread(consumer);
 		
 		consumerTask.start();

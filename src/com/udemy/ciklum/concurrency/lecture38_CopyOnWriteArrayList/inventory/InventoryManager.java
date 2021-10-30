@@ -3,38 +3,32 @@ package com.udemy.ciklum.concurrency.lecture38_CopyOnWriteArrayList.inventory;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.logging.log4j.Logger;
-
+import com.udemy.ciklum.util.LoggerUtil;
 
 public class InventoryManager {
 	private List<Product> soldProductList = new ArrayList<Product>();
 	private List<Product> purchasedProductList = new ArrayList<Product>();
-	private Logger logger = null;
-	
-	public void setLogger(Logger logger) {
-		this.logger = logger;
-	}
-	
+
 	public void popuplateSoldProducts() {
 		for (int i = 0; i < 1000; i++) {
 			Product product = new Product(i, "test_product_"+i);
 			soldProductList.add(product);
-			logger.trace(Thread.currentThread().getName()+" ADDED:"+product);
+			LoggerUtil.getLogger().trace(Thread.currentThread().getName()+" ADDED:"+product);
 			try {
 				Thread.sleep(10);
 			} catch (InterruptedException e) {
-				logger.trace(e);
+				LoggerUtil.getLogger().trace(e);
 			}
 		}
 	}
 	
 	public void dislpaySoldProducts() {
 		for (Product product : soldProductList) {
-			logger.trace(Thread.currentThread().getName()+" SOLD PRODUCT:"+product);
+			LoggerUtil.getLogger().trace(Thread.currentThread().getName()+" SOLD PRODUCT:"+product);
 			try {
 				Thread.sleep(10);
 			} catch (InterruptedException e) {
-				logger.trace(e);
+				LoggerUtil.getLogger().trace(e);
 			}
 		}
 	}

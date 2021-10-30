@@ -14,7 +14,6 @@ public class ThreadPoolDemo1 {
 	public static void main(String[] args) {
 		logger.info("shutdown:");
 
-		MessageProcessor.setLogger(logger);
 		ExecutorService executor = Executors.newFixedThreadPool(2);
 		
 		Runnable processor1 = new MessageProcessor(10);
