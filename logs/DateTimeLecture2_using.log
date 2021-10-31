@@ -1,0 +1,14 @@
+example1 - localDateTime plus minus
+2030-01-10
+2030-03-15
+10:30
+12:50
+2030-03-15T12:50
+2030-03-24T02:50
+
+example2 - calendar before java8
+Mon Mar 01 00:28:57 EET 2021
+
+example3 - localDate is immutable
+2010-04-01
+2010-04-01

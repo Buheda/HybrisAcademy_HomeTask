@@ -1,0 +1,13 @@
+example1 - now
+2021-11-01
+00:28:47.159799500
+2021-11-01T00:28:47.159799500
+
+example2 - LocalDateTime.of
+2122-10-31
+10:30
+2122-10-31T10:30
+
+example3 - calendar before Java8
+Mon Nov 01 00:28:47 EET 2021
+Thu Jan 01 00:28:47 EET 2122

@@ -1,0 +1,13 @@
+example1 - parse
+2121-02-15
+11:33
+
+example2 - formatter
+02 15 2121
+
+example3 - parse back
+2121-02-15
+
+example4 - update date in string, immutable localdate
+05 05 2010
+10 10 2010
