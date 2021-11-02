@@ -1,8 +1,9 @@
-package com.ciklum.hybrisacademy.day2;
+package com.ciklum.hybrisacademy.day2_simplewebapp;
 
 import java.io.IOException;
 
 import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -19,12 +20,9 @@ public class MainServlet extends jakarta.servlet.http.HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("mainServlet get");
-		//
-		response.setContentType("text/html");
-		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("register.html");
-		dispatcher.forward(request, response);
-		
+		ServletContext servletContext = getServletContext();
+		RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/register.html");
+		requestDispatcher.forward(request, response);
 	}
 
 }

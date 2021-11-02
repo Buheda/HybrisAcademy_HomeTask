@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>login form submit Result</title>
-<link href="<%= request.getContextPath() %>/css/index.css" rel="stylesheet">
+<link href="/2_Java_EE/css/index.css" rel="stylesheet">
 </head>
 <body>
 
@@ -50,7 +50,7 @@
 	</tr>
 	<tr>
 		<td>Gender</td>
-		<td><%=request.getParameter("gender") %> </td>
+		<td><%=(request.getParameter("gender")!=null?request.getParameter("gender"):"")%> </td>
 	</tr>
 	<tr>
 		<td>Hobbies</td>
@@ -59,18 +59,23 @@
 			StringBuilder selectedHobbies = new StringBuilder();
 			String[] hobbiesList=request.getParameterValues("hobbies");
 			String separator = "";
-			for (String hobby : hobbiesList) {
-			    if (hobby != null) {
-			    	selectedHobbies.append(separator);
-					System.out.println(hobby);
-
-			    	selectedHobbies.append(hobby);			    	
-			    	separator = ", ";
-			    }
-		    } 
+			if (null!=hobbiesList && hobbiesList.length>0)
+				for (String hobby : hobbiesList) {
+				    if (hobby != null) {
+				    	selectedHobbies.append(separator);
+						System.out.println(hobby);
+	
+				    	selectedHobbies.append(hobby);			    	
+				    	separator = ", ";
+				    }
+			    } 
 		%>
 		<%=selectedHobbies.toString()%>
 		</td>
+	</tr>
+	<tr>
+		<td>Favorite color</td>
+		<td><div style="width:20px;height:20px;border:1px solid #000;background-color: <%=request.getParameter("favcolor") %>"></div></td>
 	</tr>
 	</table>
 </body>
