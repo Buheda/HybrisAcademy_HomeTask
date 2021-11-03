@@ -2,24 +2,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Board</title>
+<title>Register form</title>
 <link href="/2_Java_EE/css/index.css" rel="stylesheet">
 </head>
 <body>
 
-<form action="result.jsp" method="post">
 <h2 class="text-center">Registration form</h2>
+<form action="result.jsp" method="post">
 <div id=form>
     <div class="form-group">
         <label for="login" class="col-sm-4 control-label">Login</label>
         <div class="col-sm-5">
-            <input placeholder="insert Login" class="form-control" id="login" name="login" type="text">
+            <input placeholder="insert Login" class="form-control" id="login" name="login" type="text" required>
         </div>
     </div>
     <div class="form-group">
         <label for="password" class="col-sm-4 control-label">Password</label>
         <div class="col-sm-5">
-            <input placeholder="insert password" class="form-control" id="password" autocomplete="off" name="password" type="password">
+            <input placeholder="insert password" class="form-control" id="password" autocomplete="off" name="password" type="password" required>
         </div>
     </div>
     <div class="form-group">
@@ -37,7 +37,7 @@
 	        	<option value=2>+375 (Belarus)</option>
 	        	<option value=3>+373 (Republica Moldova)</option>        
 	        </select>
-	        <input placeholder="phone" class="form-control" id="phone" name="phone" type="text">
+	        <input placeholder="phone" class="form-control" id="phone" name="phone" type="number">
 	     </div>
     </div>
     
@@ -66,9 +66,6 @@
 	   		<input type="color" id="favcolor" name="favcolor" value="#00ff00">
 	    </div>
     </div>
-    
-</div>
-    
 </div>
 
 <input type="submit" name="submit"/>
