@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register form</title>
+<link href="/2_Java_EE/css/index.css" rel="stylesheet">
+</head>
+<body>
+
+<h2 class="text-center">Registration form</h2>
+<form action="result" method="post">
+<div id=form>
+    <div class="form-group">
+        <label for="login" class="col-sm-4 control-label">Login</label>
+        <div class="col-sm-5">
+            <input placeholder="insert Login" class="form-control" id="login" name="login" type="text" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-sm-4 control-label">Password</label>
+        <div class="col-sm-5">
+            <input placeholder="insert password" class="form-control" id="password" autocomplete="off" name="password" type="password" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="fullname" class="col-sm-4 control-label">Full name</label>
+        <div class="col-sm-5">
+            <input placeholder="insert full name" class="form-control" id="fullname" name="fullname" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="phone" class="col-sm-4 control-label">Phone</label>
+        <div class="col-sm-5">
+	        <select name="code" id= "code"> 
+	        	<option value=0>+38 (Ukraine)</option>
+	        	<option value=1>+7 (Russia)</option>
+	        	<option value=2>+375 (Belarus)</option>
+	        	<option value=3>+373 (Republica Moldova)</option>        
+	        </select>
+	        <input placeholder="phone" class="form-control" id="phone" name="phone" type="number">
+	     </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="gender" class="col-sm-4 control-label">Gender</label>
+        <div class="col-sm-5">
+	   		<input type="radio" name="gender" value="Female">Female<Br>
+	   		<input type="radio" name="gender" value="Male">Male<Br>   
+	    </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="hobbies" class="col-sm-4 control-label">Hobbies</label>
+        <div class="col-sm-5">
+	   		<input type="checkbox" name="hobbies" value="Auto">Automobile<Br>
+	   		<input type="checkbox" name="hobbies" value="Sport">Sport<Br>   
+	   		<input type="checkbox" name="hobbies" value="Travelling">Travelling<Br>
+	   		<input type="checkbox" name="hobbies" value="Films">Films<Br>
+	   		<input type="checkbox" name="hobbies" value="Cooking">Cooking<Br>
+	    </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="favcolor" class="col-sm-4 control-label">Favorite color</label>
+        <div class="col-sm-5">
+	   		<input type="color" id="favcolor" name="favcolor" value="#00ff00">
+	    </div>
+    </div>
+</div>
+
+<input type="submit" name="submit"/>
+</form>
+</body>
+</html>
