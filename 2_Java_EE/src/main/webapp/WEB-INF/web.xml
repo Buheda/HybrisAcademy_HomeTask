@@ -13,7 +13,7 @@
     <description></description>
     <display-name>MainServlet</display-name>
     <servlet-name>MainServlet</servlet-name>
-    <servlet-class>com.ciklum.hybrisacademy.day2_simplewebapp.MainServlet</servlet-class>
+    <servlet-class>com.ciklum.academy.hybris.obuheda_day2_simplewebapp.MainServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MainServlet</servlet-name>
@@ -23,7 +23,7 @@
     <description></description>
     <display-name>ResultTableServlet</display-name>
     <servlet-name>ResultTableServlet</servlet-name>
-    <servlet-class>com.ciklum.hybrisacademy.day2_simplewebapp.ResultTableServlet</servlet-class>
+    <servlet-class>com.ciklum.academy.hybris.obuheda_day2_simplewebapp.ResultTableServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ResultTableServlet</servlet-name>
