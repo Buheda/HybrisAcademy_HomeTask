@@ -2,13 +2,17 @@ package com.ciklum.academy.hybris.obuheda_day3_SpringDI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 
-@ImportResource("classpath:config.xml")
 @SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
+		
+	    ServletRegistrationBean bean = new ServletRegistrationBean(
+	    	      new ResultTableServlet(), "/result");
+	    	    bean.setLoadOnStartup(1);
+		
 	}
 }
