@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
-  <display-name>2_Java_EE</display-name>
+  <display-name>3_SpringDI</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>register.html</welcome-file>
   </welcome-file-list>
-    <servlet>
+   
+   <servlet>
     <description></description>
     <display-name>MainServlet</display-name>
     <servlet-name>MainServlet</servlet-name>
-    <servlet-class>com.ciklum.hybrisacademy.day2_simplewebapp.MainServlet</servlet-class>
+    <servlet-class>com.ciklum.academy.hybris.obuheda_day3_SpringDI.MainServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MainServlet</servlet-name>
-    <url-pattern>/register</url-pattern>
+    <url-pattern>/register.html</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <description></description>
     <display-name>ResultTableServlet</display-name>
     <servlet-name>ResultTableServlet</servlet-name>
-    <servlet-class>com.ciklum.hybrisacademy.day2_simplewebapp.ResultTableServlet</servlet-class>
+    <servlet-class>com.ciklum.academy.hybris.obuheda_day3_SpringDI.ResultTableServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ResultTableServlet</servlet-name>
-    <url-pattern>/result</url-pattern>
+    <url-pattern>/result.jsp</url-pattern>
   </servlet-mapping>
+  
 </web-app>
