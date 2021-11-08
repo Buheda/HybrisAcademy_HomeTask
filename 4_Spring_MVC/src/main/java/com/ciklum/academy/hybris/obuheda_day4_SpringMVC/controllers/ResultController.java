@@ -40,6 +40,6 @@ public class ResultController {
 	@RequestMapping(value="result", method = RequestMethod.GET)
 	public String getResultPage(){
 
-		return "redirect:/index";
+		return "redirect:index";
 	}
 }

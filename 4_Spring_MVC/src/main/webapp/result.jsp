@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>login form submit Result</title>
-<link href="/css/index.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 </head>
 <body>
 
